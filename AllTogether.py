@@ -5,7 +5,7 @@ myList = []
 for x in range(1,11):
     myList.append(random.randint(1,100))
 
-print("Here are your numbers:")
+print("Here are your 10 random numbers:")
 for x in myList:
     print(x)
 
@@ -15,8 +15,7 @@ while i < len(myList):
         myList.pop(i)
     else:
         i += 1
-    
-
+print("After removing the even numbers, here are the remaining odd numbers:\n")
 print(myList)
 
 
